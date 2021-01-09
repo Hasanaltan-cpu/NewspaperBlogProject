@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewspaperBlogProject.MapLay
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewspaperBlogProject.DataAccessLayer", "NewspaperBlogProject.DataAccessLayer\NewspaperBlogProject.DataAccessLayer.csproj", "{2A8C1700-72C2-4D26-827D-D08D9B4DA20F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewspaperBlogProject.UI", "NewspaperBlogProject.UI\NewspaperBlogProject.UI.csproj", "{CED6D657-6A7C-4FC3-92E6-4B3CB68AA702}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2A8C1700-72C2-4D26-827D-D08D9B4DA20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A8C1700-72C2-4D26-827D-D08D9B4DA20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A8C1700-72C2-4D26-827D-D08D9B4DA20F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED6D657-6A7C-4FC3-92E6-4B3CB68AA702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED6D657-6A7C-4FC3-92E6-4B3CB68AA702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED6D657-6A7C-4FC3-92E6-4B3CB68AA702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED6D657-6A7C-4FC3-92E6-4B3CB68AA702}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

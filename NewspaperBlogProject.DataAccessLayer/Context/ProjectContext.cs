@@ -1,4 +1,5 @@
 ﻿using NewspaperBlogProject.EntityLayer.Entities.Concrete;
+using NewspaperBlogProject.MapLayer.Mapping;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -30,8 +31,8 @@ namespace NewspaperBlogProject.DataAccessLayer.Context
             modelBuilder.Configurations.Add(new LikeMap());
 
             modelBuilder.Properties<DateTime>().Configure(x => x.HasColumnType("datetime2"));
-            base.OnModelCreating(modelBuilder);
 
+            base.OnModelCreating(modelBuilder);
         }
 
     }

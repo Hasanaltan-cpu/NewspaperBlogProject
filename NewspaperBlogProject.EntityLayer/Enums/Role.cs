@@ -8,8 +8,8 @@ namespace NewspaperBlogProject.EntityLayer.Enums
 {
     public enum Role
     {
-        admin=0,
-        member=1,
-        author=2
+        admin=1,
+        member=2,
+        author=3
     }
 }
