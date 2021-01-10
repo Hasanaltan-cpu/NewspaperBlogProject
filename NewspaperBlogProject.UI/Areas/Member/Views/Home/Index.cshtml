@@ -1,0 +1,44 @@
+﻿@model IEnumerable<NewspaperBlogProject.EntityLayer.Entities.Concrete.Post>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Member/Views/Shared/_MemberLayoutPage.cshtml";
+}
+
+<section class="content">
+    <div class="row">
+        <div class="col-sm-10">
+            @foreach (var item in Model)
+            {
+                <div class="box box-widget">
+                    <div class="box-header with-border">
+                        <div class="user-block">
+                            <img class="img-circle" src="@item.AppUser.UserImage" alt="User Image">
+                            <span class="username"><a href="#">@item.AppUser.FirstName @item.AppUser.LastName</a></span>
+                            <span class="description">Shared publicly - @item.CreateDate.ToShortDateString() </span>
+                        </div>
+                        <!-- /.user-block -->
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <img class="img-responsive pad" src="@item.ImagePath" alt="Photo">
+                        <span class="pull-right text-muted">@item.Likes.Count() likes - @item.Comments.Count() comments</span>
+                        <p class="box-header" style="font-size:large">@item.Header</p>
+                        <p>
+                            @if (item.Content.Length > 10)
+                            {
+                                @item.Content.Substring(0, 100); <br />
+                                <span>
+                                    <a href="/Member/Post/Show/@item.Id" class="btn btn-primary">Read more</a>
+                                </span>
+                            }
+
+                        </p>
+
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+            }
+        </div>
+    </div>
+</section>
+

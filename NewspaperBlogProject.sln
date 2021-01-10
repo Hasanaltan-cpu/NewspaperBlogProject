@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewspaperBlogProject.DataAc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewspaperBlogProject.UI", "NewspaperBlogProject.UI\NewspaperBlogProject.UI.csproj", "{CED6D657-6A7C-4FC3-92E6-4B3CB68AA702}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewspaperBlogProject.Utility", "NewspaperBlogProject.Utility\NewspaperBlogProject.Utility.csproj", "{7AF6B769-D43D-4999-92B9-8C9B1751A6F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CED6D657-6A7C-4FC3-92E6-4B3CB68AA702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CED6D657-6A7C-4FC3-92E6-4B3CB68AA702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CED6D657-6A7C-4FC3-92E6-4B3CB68AA702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF6B769-D43D-4999-92B9-8C9B1751A6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF6B769-D43D-4999-92B9-8C9B1751A6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF6B769-D43D-4999-92B9-8C9B1751A6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF6B769-D43D-4999-92B9-8C9B1751A6F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

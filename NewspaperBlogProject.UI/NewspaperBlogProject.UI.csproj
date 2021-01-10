@@ -95,76 +95,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\css\animate.css" />
-    <Content Include="Content\css\bootstrap.min.css" />
-    <Content Include="Content\css\classy-nav.css" />
-    <Content Include="Content\css\font-awesome.min.css" />
-    <Content Include="Content\css\magnific-popup.css" />
-    <Content Include="Content\css\owl.carousel.min.css" />
-    <Content Include="Content\fonts\classy.svg" />
-    <Content Include="Content\fonts\fontawesome-webfont.svg" />
-    <Content Include="Content\img\bg-img\1.jpg" />
-    <Content Include="Content\img\bg-img\10.jpg" />
-    <Content Include="Content\img\bg-img\11.jpg" />
-    <Content Include="Content\img\bg-img\12.jpg" />
-    <Content Include="Content\img\bg-img\13.jpg" />
-    <Content Include="Content\img\bg-img\14.jpg" />
-    <Content Include="Content\img\bg-img\15.jpg" />
-    <Content Include="Content\img\bg-img\16.jpg" />
-    <Content Include="Content\img\bg-img\17.jpg" />
-    <Content Include="Content\img\bg-img\18.jpg" />
-    <Content Include="Content\img\bg-img\19.jpg" />
-    <Content Include="Content\img\bg-img\2.jpg" />
-    <Content Include="Content\img\bg-img\20.jpg" />
-    <Content Include="Content\img\bg-img\21.jpg" />
-    <Content Include="Content\img\bg-img\22.jpg" />
-    <Content Include="Content\img\bg-img\23.jpg" />
-    <Content Include="Content\img\bg-img\24.jpg" />
-    <Content Include="Content\img\bg-img\25.jpg" />
-    <Content Include="Content\img\bg-img\26.jpg" />
-    <Content Include="Content\img\bg-img\27.jpg" />
-    <Content Include="Content\img\bg-img\28.jpg" />
-    <Content Include="Content\img\bg-img\29.jpg" />
-    <Content Include="Content\img\bg-img\3.jpg" />
-    <Content Include="Content\img\bg-img\30.jpg" />
-    <Content Include="Content\img\bg-img\31.jpg" />
-    <Content Include="Content\img\bg-img\32.jpg" />
-    <Content Include="Content\img\bg-img\33.jpg" />
-    <Content Include="Content\img\bg-img\34.jpg" />
-    <Content Include="Content\img\bg-img\35.jpg" />
-    <Content Include="Content\img\bg-img\4.jpg" />
-    <Content Include="Content\img\bg-img\5.jpg" />
-    <Content Include="Content\img\bg-img\6.jpg" />
-    <Content Include="Content\img\bg-img\7.jpg" />
-    <Content Include="Content\img\bg-img\8.jpg" />
-    <Content Include="Content\img\bg-img\9.jpg" />
-    <Content Include="Content\img\bg-img\add.png" />
-    <Content Include="Content\img\bg-img\add2.png" />
-    <Content Include="Content\img\bg-img\add3.png" />
-    <Content Include="Content\img\bg-img\add4.png" />
-    <Content Include="Content\img\core-img\archive.png" />
-    <Content Include="Content\img\core-img\diamond.png" />
-    <Content Include="Content\img\core-img\favicon.ico" />
-    <Content Include="Content\img\core-img\file.png" />
-    <Content Include="Content\img\core-img\id-card.png" />
-    <Content Include="Content\img\core-img\id-card2.png" />
-    <Content Include="Content\img\core-img\idea.png" />
-    <Content Include="Content\img\core-img\list.png" />
-    <Content Include="Content\img\core-img\logo.png" />
-    <Content Include="Content\img\core-img\map-pin.png" />
-    <Content Include="Content\img\core-img\paper-plane.png" />
-    <Content Include="Content\img\core-img\smartphone.png" />
-    <Content Include="Content\js\active.js" />
-    <Content Include="Content\js\bootstrap\bootstrap.min.js" />
-    <Content Include="Content\js\bootstrap\popper.min.js" />
-    <Content Include="Content\js\jquery\jquery-2.2.4.min.js" />
-    <Content Include="Content\js\plugins\plugins.js" />
     <Content Include="Content\Site.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -176,6 +107,10 @@
     <Content Include="Areas\Admin\Views\Post\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Post\Update.cshtml" />
     <Content Include="Areas\Admin\Views\Post\List.cshtml" />
+    <Content Include="Areas\Member\Views\web.config" />
+    <Content Include="Areas\Member\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Member\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Member\Views\Shared\_MemberLayoutPage.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -195,6 +130,10 @@
     <Compile Include="Areas\Admin\Data\PostDTO.cs" />
     <Compile Include="Areas\Admin\Data\VMs\AddPostVM.cs" />
     <Compile Include="Areas\Admin\Data\VMs\UpdatePostVM.cs" />
+    <Compile Include="Areas\Member\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Member\Controllers\PostController.cs" />
+    <Compile Include="Areas\Member\Data\VMs\PostDetailsVM.cs" />
+    <Compile Include="Areas\Member\MemberAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -204,29 +143,8 @@
     <Content Include="Views\web.config" />
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\Shared\_AdminLayout.cshtml" />
-    <Content Include="Content\fonts\classy.eot" />
-    <Content Include="Content\fonts\classy.ttf" />
-    <Content Include="Content\fonts\classy.woff" />
-    <Content Include="Content\fonts\fontawesome-webfont.eot" />
-    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Content\fonts\fontawesome-webfont.woff" />
-    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
-    <Content Include="Content\fonts\FontAwesome.otf" />
-    <Content Include="Content\scss\style.scss" />
-    <Content Include="Content\scss\_fonts.scss" />
-    <Content Include="Content\scss\_mixin.scss" />
-    <Content Include="Content\scss\_responsive.scss" />
-    <Content Include="Content\scss\_theme_color.scss" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\AppUser\Create.cshtml" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
@@ -239,6 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Member\Views\Post\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
